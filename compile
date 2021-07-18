@@ -1,0 +1,1 @@
+g++ -g ./Utilities.cpp ./UtilitiesTester.cpp -o ./UtilitiesTester
