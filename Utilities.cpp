@@ -77,3 +77,39 @@ bool util::stob(const std::string& s) {
 		throw std::domain_error("not a valid boolean value");
 	}
 }
+
+bool util::equal(const float a, const float b, float eps) {
+	return std::fabs(a - b) <= eps;
+}
+
+bool util::equal(const float a, const double b, float eps) {
+	return std::fabs(a - b) <= eps;
+}
+
+bool util::equal(const float a, const long double b, float eps) {
+	return std::fabs(a - b) <= eps;
+}
+
+bool util::equal(const double a, const double b, float eps) {
+	return std::fabs(a - b) <= eps;
+}
+
+bool util::equal(const double a, const float b, float eps) {
+	return std::fabs(a - b) <= eps;
+}
+
+bool util::equal(const double a, const long double b, float eps) {
+	return std::fabs(a - b) <= eps;
+}
+
+bool util::equal(const long double a, const long double b, float eps) {
+	return std::fabs(a - b) <= eps;
+}
+
+bool util::equal(const long double a, const double b, float eps) {
+	return std::fabs(a - b) <= eps;
+}
+
+bool util::equal(const long double a, const float b, float eps) {
+	return std::fabs(a - b) <= eps;
+}
