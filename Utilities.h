@@ -5,6 +5,7 @@
 
 namespace util
 {
+	/*
 	void println(char value);
 	void println(unsigned char value);
 
@@ -31,6 +32,7 @@ namespace util
 	// Any non-primitive input will be passed by reference
 	template<typename T>
 	void println(T& s);
+	*/
 
 	bool stob(const std::string& s);
 
