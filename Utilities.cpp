@@ -1,5 +1,6 @@
 #include "Utilities.h"
 
+/*
 void util::println(short value) {
 	std::cout << value << '\n';
 }
@@ -65,6 +66,7 @@ template<typename T>
 void util::println(T& s) {
 	std::cout << s << '\n';
 }
+*/
 
 bool util::stob(const std::string& s) {
 	if(s == "true" || s == "false") {
