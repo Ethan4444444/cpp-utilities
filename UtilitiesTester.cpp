@@ -2,6 +2,7 @@
 
 using namespace util;
 int main() {
+	/* TODO: replace println with printf
 	println(stob("true"));
 	println(stob("false"));	
 	println(stob("1"));	
@@ -18,6 +19,6 @@ int main() {
 	} catch(const std::domain_error& de) {
 		println(de.what());
 	}
-
+	*/
 	return 0;
 }
